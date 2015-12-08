@@ -1,7 +1,11 @@
-<h1>Movies</h1>
+<div class="row">
+  <div class="col-md-6 col-lg-6 col-md-offset-3" id="logo">
+    <h1>Search Results</h1>
 
-<% movies.Search.forEach(function(movie) { %>
-<div class="well">
-  <h2><a href="/movies/<%= movie.imdbID %>"><%= movie.Title %></a></h2>
+    <% movies.Search.forEach(function(movie) { %>
+    <div class="search">
+      <h3><a href="/movies/<%= movie.imdbID %>"><%= movie.Title %></a>&nbsp;<%= movie.Year %></h3>
+    </div>
+    <% }); %>
+  </div>
 </div>
-<% }); %>

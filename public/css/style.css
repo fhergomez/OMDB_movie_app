@@ -1,0 +1,26 @@
+body {
+  font-size: 13px;
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: .5px .5px 0 #2B2B2E;
+  background-color: #57575d;
+  background: url('/images/bg_tile.jpg') repeat-x repeat-y
+}
+
+#logo {
+  width: 420px;
+  position: relative;
+  height: 90px;
+}
+
+#icon {
+  width: 400px;
+  height: 86px;
+  background: url("/images/reel.png") no-repeat;
+}
+
+.searchMovie {
+  margin: 30px 0 0 100px;
+  position: absolute;
+  width: 300px;
+}
